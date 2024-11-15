@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع الأدعية</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1529692236671-f1a6c83fba70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080'); /* خلفية جاهزة */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #4CAF50;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: inline-block;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    #searchBar {
+      width: 80%;
+      padding: 10px;
+      font-size: 18px;
+      margin: 20px 0;
+      border: 2px solid #4CAF50;
+      border-radius: 5px;
+    }
+
+    .dua-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .dua-item {
+      background-color: rgba(231, 243, 231, 0.8);
+      border: 1px solid #4CAF50;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      text-align: right;
+    }
+
+    .dua-title {
+      font-weight: bold;
+      color: #2d6a4f;
+    }
+  </style>
+</head>
+<body>
+  <h1>الأدعية</h1>
+  
+  <input type="text" id="searchBar" placeholder="ابحث عن دعاء...">
+
+  <ul id="duaList" class="dua-list">
+    <li class="dua-item"><span class="dua-title">دعاء العفو:</span> اللهم إنك عفو تحب العفو فاعفُ عني</li>
+    <li class="dua-item"><span class="dua-title">دعاء الدنيا والآخرة:</span> ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار</li>
+    <li class="dua-item"><span class="dua-title">دعاء التوبة:</span> اللهم اجعلني من التوابين واجعلني من المتطهرين</li>
+    <li class="dua-item"><span class="dua-title">دعاء للوالدين:</span> ربِّ ارحمهما كما ربياني صغيرًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء الرزق:</span> اللهم اغفر لي ذنبي ووسع لي في داري وبارك لي في رزقي</li>
+    <li class="dua-item"><span class="dua-title">دعاء الكرب:</span> اللهم إني أعوذ بك من الهم والحزن والعجز والكسل</li>
+    <li class="dua-item"><span class="dua-title">دعاء الاستعانة:</span> اللهم أصلح لي شأني كله ولا تكلني إلى نفسي طرفة عين</li>
+    <li class="dua-item"><span class="dua-title">دعاء الهدى والتقى:</span> اللهم إني أسألك الهدى والتقى والعفاف والغنى</li>
+    <li class="dua-item"><span class="dua-title">دعاء الثبات:</span> اللهم يا مقلّب القلوب ثبّت قلبي على دينك</li>
+    <li class="dua-item"><span class="dua-title">دعاء الغفران:</span> اللهم اغفر لي ما قدمت وما أخرت وما أسررت وما أعلنت</li>
+    <li class="dua-item"><span class="dua-title">دعاء الجنة:</span> اللهم إني أسألك الجنة وما قرب إليها من قول أو عمل، وأعوذ بك من النار وما قرب إليها</li>
+    <li class="dua-item"><span class="dua-title">دعاء التوفيق:</span> اللهم اهدني وسددني، اللهم إني أسألك الهدى والسداد</li>
+    <li class="dua-item"><span class="dua-title">دعاء الاستغفار:</span> أستغفر الله العظيم الذي لا إله إلا هو الحي القيوم وأتوب إليه</li>
+    <li class="dua-item"><span class="dua-title">دعاء الفرج:</span> لا إله إلا الله العظيم الحليم، لا إله إلا الله رب العرش العظيم، لا إله إلا الله رب السماوات ورب الأرض ورب العرش الكريم</li>
+    <li class="dua-item"><span class="dua-title">دعاء قبل النوم:</span> اللهم باسمك أموت وأحيا</li>
+    <li class="dua-item"><span class="dua-title">دعاء السفر:</span> اللهم إنا نسألك في سفرنا هذا البر والتقوى ومن العمل ما ترضى</li>
+    <li class="dua-item"><span class="dua-title">دعاء الأمان:</span> حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم</li>
+    <li class="dua-item"><span class="dua-title">دعاء الزوجين:</span> اللهم اجعلني قرة عين لزوجي واجعله قرة عين لي</li>
+    <li class="dua-item"><span class="dua-title">دعاء الولد:</span> اللهم اجعلهم هداة مهتدين غير ضالين ولا مضلين</li>
+    <li class="dua-item"><span class="dua-title">دعاء الخوف:</span> اللهم اكفنيهم بما شئت</li>
+    <li class="dua-item"><span class="dua-title">دعاء الصحة:</span> اللهم عافني في بدني، وعافني في سمعي، وعافني في بصري</li>
+    <li class="dua-item"><span class="dua-title">دعاء المرض:</span> اللهم رب الناس أذهب البأس، اشفِ أنت الشافي لا شفاء إلا شفاؤك شفاء لا يغادر سقمًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء العلم:</span> اللهم زدني علمًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء الحزن:</span> اللهم إني عبدك وابن عبدك وابن أمتك، ناصيتي بيدك، ماضٍ فيّ حكمك، عدل فيّ قضاؤك</li>
+    <li class="dua-item"><span class="dua-title">دعاء الشكر:</span> اللهم لك الحمد حتى ترضى ولك الحمد إذا رضيت ولك الحمد بعد الرضا</li>
+    <li class="dua-item"><span class="dua-title">دعاء القوة:</span> اللهم إني أسألك الثبات في الأمر، والعزيمة على الرشد</li>
+    <li class="dua-item"><span class="dua-title">دعاء الحاجة:</span> اللهم اكفني بحلالك عن حرامك واغنني بفضلك عمن سواك</li>
+    <li class="dua-item"><span class="dua-title">دعاء الصبر:</span> اللهم أجرني في مصيبتي واخلف لي خيرًا منها</li>
+    <li class="dua-item"><span class="dua-title">دعاء المطر:</span> اللهم صيبًا نافعًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء المنزل:</span> أعوذ بكلمات الله التامات من شر ما خلق</li>
+    <li class="dua-item"><span class="dua-title">دعاء العتق من النار:</span> اللهم أجرني من النار</li>
+    <li class="dua-item"><span class="dua-title">دعاء القلق:</span> اللهم لا سهل إلا ما جعلته سهلًا وأنت تجعل الحزن إذا شئت سهلًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء تيسير الأمور:</span> اللهم لا سهل إلا ما جعلته سهلًا</li>
+    <li class="dua-item"><span class="dua-title">دعاء بعد الصلاة:</span> اللهم أنت السلام ومنك السلام، تباركت يا ذا الجلال والإكرام</li>
+    <li class="dua-item"><span class="dua-title">دعاء القنوت:</span> اللهم اهدني فيمن هديت، وعافني فيمن عافيت</li>
+    <li class="dua-item"><span class="dua-title">دعاء دفع البلاء:</span> اللهم ارحمنا وأغثنا، والطف بنا، و تداركنا بإغاثتك، اللهم نتوسل إليك باسمك الواحد، الفرد الصمد، وباسمك العظيم فرج عنا ما أمسينا فيه، و ما أصبحنا فيه، أجرنا أجرنا أجرنا يا الله، يا كاشف الهموم، ومفرج الكرب العظيم، ويا من إذا أراد شيئًا يقول له: كُن فيكون، يار ربنا نسألك رحمة بأطفالنا و شيوخنا ة بلدنا بأن ترفع عنا البلاء .
+<li class="dua-item"><span class="dua-title">دعاء اليوم الجمعة:</span> اللهم إني أسألك في صلاتي بركة تطهر بها قلبي
+<li class="dua-item"><span class="dua-title">دعاء الذي اهتز له في عرش الرحمن:</span> «يا ودود، يا ذا العرش المجيد، يا فعالا لما تريد، أسألك بعزك الذي لا يرام وبملكك الذي لا يضام وبنورك الذي ملأ أركان عرشك، أن تكفني شر (ويسمي الحاجة أو الشخص) يا مغيث أغثني، يا مغيث أغثني، يا مغيث أغثني».
+<li class="dua-item"><span class="dua-title">دعاء تحصين من شهوات:</span> اللَّهُمَّ إِنِي أَسْأَلُكَ الهُدَى، وَالتُّقَى، وَالعفَافَ، والغنَى.
+<li class="dua-item"><span class="dua-title">دعاء تحصين من الحسد:</span> أعوذ بعزة الله وقدرته من شر ما أجد وأحاذر.
+<li class="dua-item"><span class="dua-title">دعاء قبل المذاكرة:</span> لا إله إلا أنت سبحانك إني كنت من الظالمين، يا حي، يا قيوم برحمتك استغيث، رب اشرح لي صدري ويسّر لي أمري، واحلل عقدةً من لساني يفقه قولي، بسم الله الفتاح، اللهم لا سهل إلا ما جعلته سهلًا، وأنت تجعل الحزن إذا شئت سهلًا
+<script>
+    const searchBar = document.getElementById('searchBar');
+    const duaItems = document.querySelectorAll('.dua-item');
+
+    searchBar.addEventListener('input', function() {
+      const query = searchBar.value.toLowerCase();
+      duaItems.forEach(dua => {
+        const text = dua.textContent.toLowerCase();
+        dua.style.display = text.includes(query) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
